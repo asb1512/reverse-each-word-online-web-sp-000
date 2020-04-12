@@ -5,5 +5,4 @@ def reverse_each_word(sentence)
   reversed_array = sentence_to_array.map do |word|
     word.reverse
   end
-  binding.pry
 end
